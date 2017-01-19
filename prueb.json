@@ -1,0 +1,32 @@
+[{
+    "header": {
+        "menu" : {"option1":"Inicio", "option2":"Universo", "option3":"Galeria"},
+        "sideDeploy":false
+    },
+    "body": {
+        "banner" : {
+             "src":"images/banner.jpg"
+        },
+        "carousel":{
+            "img1": "images/s1.jpg",
+            "img2": "images/s2.jpg",
+            "img3": "images/s3.jpg" 
+        },
+         "extructure": {
+            "form": {
+                "Nombres": {"type":"text", "placeholder": "Nombre", "attr": {"id":"name", "class":"name", "etc":"etc"}},
+                "Apellidos": {"type":"text", "placeholder": "Celular", "attr": {"id":"name", "class":"name", "etc":"etc"}},
+                "Correo": {"type":"text", "placeholder": "Celular", "attr": {"id":"name", "class":"name", "etc":"etc"}},
+                "Celular": {"type":"text", "placeholder": "Celular", "attr": {"id":"name", "class":"name", "etc":"etc"}}                
+                }    
+            }
+
+        },
+         "footer": {
+        "links": {
+            "link_name": {
+                            "link":"prueba.js"
+                         }
+        }
+    }
+}]
